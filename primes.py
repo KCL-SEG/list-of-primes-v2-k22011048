@@ -8,7 +8,7 @@ def primes(number_of_primes):
     def isPrime(val):
         if val==1:
             return False
-        elif num > 1:
+        elif val > 1:
             for i in range (2, val):
                 if val%i == 0:
                     return False
